@@ -32,9 +32,12 @@
               }
             ],
             "styles": [
+              "node_modules/drawflow/dist/drawflow.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/drawflow/dist/drawflow.min.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,9 @@
+<button (click)="export()">Export</button>
+<div class="drawflow-wrapper">
+  <div class="left-panel">
+    <div draggable="true" (drag)="onDrag($event)" class="drag-drawflow" data-node="Element-1">
+        <span class="left-panel-item">Element-1</span>
+    </div>
+  </div>
+  <div id="drawflow" #drawflow (drop)="drop($event)" (dragover)="allowDrop($event)"></div>
+</div>

@@ -1,0 +1,49 @@
+JS-
+NodeJs-
+
+Lib vs Framework-
+    Aggrid
+    tooltip - tippyjs
+    boostrap - styling
+
+    combination of libs
+    - routing
+    - structuring
+    - validation
+    - lifecycle
+    - statemanagement
+
+Phases of app-
+    boostrap
+    mounting 
+    unmounting
+
+
+Angular-   2+ - 19v
+
+Prerequistes-
+    NodeJs- (npm)
+
+    npm i -g @angular/cli@latest
+
+    ng => 
+        npx ng new <app_name>
+    
+
+    Problems-
+        - Bundle size
+
+    Entry point -
+        html -> index.html
+        ts -> main.ts
+    
+    Folder structure-
+        AppComponent- root
+    
+    
+    
+    Data binding-
+        one way 
+        two way
+        data passing b/w components
+

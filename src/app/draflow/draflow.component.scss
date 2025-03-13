@@ -1,0 +1,23 @@
+#drawflow {
+  // position: relative;
+  width: calc(100vw - 301px);
+  height: calc(100vh - 50px);
+  background-size: 25px 25px;
+  background-image: linear-gradient(to right, #f1f1f1 1px, transparent 1px),
+    linear-gradient(to bottom, #f1f1f1 1px, transparent 1px);
+}
+
+.drawflow-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-panel {
+    width: 10rem;
+    background-color: #afbaaf;
+}
+.left-panel-item {
+    height: 2rem;
+    width: 100%;
+    cursor: grab;
+}

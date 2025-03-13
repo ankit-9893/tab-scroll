@@ -1,0 +1,70 @@
+.header {
+    height: 3.5rem;
+  }
+  .full-height {
+    height: 100%;
+  }
+  .app-container {
+      height: calc(100% - 3.5rem);
+  }
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    overflow: hidden;
+  }
+  .summary {
+      height: 5rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #eee;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid blue;
+  }
+  
+  .scroll-container {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 20px;
+  }
+  
+  .section:nth-child(1) {
+    background-color: lightblue;
+  }
+  
+  .section:nth-child(2) {
+    background-color: lightgreen;
+  }
+  
+  .section:nth-child(3) {
+    background-color: lightcoral;
+  }
+  
